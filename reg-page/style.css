@@ -1,0 +1,248 @@
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Helvetica;
+}
+
+.page {
+	width: 100%;
+	margin: 0px auto;
+	background-color: #ffffff;
+}
+
+.header {
+	text-align: center;
+	color: #ffffff;
+	background-color: #191919;
+}
+
+.header .background {
+	height:130px;
+	background-position: center;
+}
+
+.header .logo h1 {
+	display: inline;
+	float: left;
+	color: #3e9c95;
+	font-size: 50px;
+	font-weight: 700;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 50px;
+	left: 90px;
+}
+
+.main input[type=submit] {
+    background-color: #43b3aa;
+    color: #f1f1f1;
+    padding: 2px 5px;
+		margin: 0;
+		border: 2px solid #43b3aa;
+		border-radius: 3px;
+		cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+		position: absolute;
+		top: 70px;
+	  right: 120px;
+}
+.main input[type=submit]:hover {
+  background-color: #3e9c95;
+  color: #f1f1f1;;
+	border: 2px solid #3e9c95;
+}
+.main input[type=text] {
+	padding: 3px;
+	margin-top: 2px;
+	cursor: grab;
+	position: absolute;
+	background: #f1f1f1;
+	top: 70px;
+  right: 400px;
+}
+.main input[type=password] {
+	padding: 3px;
+	margin-top: 2px;
+	cursor: grab;
+	position: absolute;
+	background: #f1f1f1;
+	top: 70px;
+	right: 200px;
+}
+.main .email {
+ 		position: absolute;
+		top: 40px;
+		right:450px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #191919;
+    background: #191919;
+    line-height: normal;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+ 		font-weight: 600;
+    font-style: normal;
+    font-size: 17px;
+   	line-height: 2em;
+   	color: #3e9c95;
+
+}
+.main .pass {
+ 		position: absolute;
+		top: 40px;
+		right:294px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #191919;
+    background: #191919;
+    line-height: normal;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+   	font-weight: 600;
+   	font-style: normal;
+   	font-size: 17px;
+   	line-height: 2em;
+   	color: #3e9c95;
+	}
+
+	.center {
+		padding: 34px 144px 24px 144px;
+		margin: 0px auto;
+		background-color: #f1f1f1;
+	}
+	.middle{
+		background-color: #ffffff;
+		padding: 50px;
+		margin: 0;
+		height: 290px;
+		border-radius: 4px;
+		text-align: center;
+		display: block;
+	}
+	.middle h1
+	{
+		margin: 0;
+		color: #191919;
+		font-size: 45px;
+		font-weight: 700;
+	}
+	.middle h3
+	{
+		margin: 0;
+		position: absolute;
+		left: 430px;
+		display: inline;
+		color: #191919;
+		font-size: 20px;
+		font-weight: 400;
+	}
+
+.middle .fname {
+	width: 14%;
+	position: absolute;
+	left: 430px;
+	top: 320px;
+}
+.middle .lname {
+	width: 14%;
+	position: absolute;
+	left: 655px;
+	top: 320px;
+}
+.middle .or {
+	width: 31.5%;
+	position: absolute;
+	left: 430px;
+	top: 370px;
+}
+.middle .pass {
+	width: 31.5%;
+	position: absolute;
+	left: 430px;
+	top: 420px;
+}
+	.middle input[type=text] {
+		padding: 8px 14px;
+		margin-top: 16px;
+		border: 1px solid #43b3aa;
+		border-radius: 10px;
+		background: #ffffff;
+		font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-size: 20px;
+		cursor: grab;
+	}
+	.middle input[type=password] {
+		padding: 8px 14px;
+		margin-top: 16px;
+		border: 1px solid #43b3aa;
+		border-radius: 10px;
+		background: #ffffff;
+		font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-size: 20px;
+		cursor: grab;
+	}
+.middle input[type=submit] {
+    background-color: #ffffff;
+    color: #43b3aa;
+		width: 33.7%;
+		padding: 7px;
+		margin-top: 16px;
+		border: 1px solid #43b3aa;
+		border-radius: 10px;
+		cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+		position: absolute;
+		left: 431px;
+		top: 470px;
+}
+.middle input[type=submit]:hover {
+  background-color: #ffffff;
+  color: #3e9c95;
+	border: 2px solid #3e9c95;
+}
+
+.footer
+{
+	padding:4px 64px 14px 64px;
+	text-align:center;
+	display:block;
+  background-color: #191919;
+}
+.footer p
+{
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	font-family: "Lucida Grande", sans-serif;
+	text-align:center;
+	color:#f1f1f1;
+}
+.footer hr
+{
+	margin: 40px 100px;
+	color: #f1f1f1;
+	background-color: #f1f1f1;
+}
+.footer a
+{
+	text-decoration:none;
+  border-bottom:dotted 1px #f1f1f1;
+	color:#f1f1f1;
+	transition: color 500ms cubic-bezier(0, 0.46, 0.8, 0.49), border-bottom 500ms ease-in-out;
+}
+.footer a:hover
+{
+	color:#49afa7;
+	border-bottom:none;
+}
